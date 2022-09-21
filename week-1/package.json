@@ -1,0 +1,36 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "tdd": "jest --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UW-PCE-JSCRIPT-330-Summer-2021/week-1.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UW-PCE-JSCRIPT-330-Summer-2021/week-1/issues"
+  },
+  "homepage": "https://github.com/UW-PCE-JSCRIPT-330-Summer-2021/week-1#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}

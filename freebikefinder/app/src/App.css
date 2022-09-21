@@ -1,0 +1,11 @@
+body {
+  background-color: beige;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
